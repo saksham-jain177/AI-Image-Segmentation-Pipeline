@@ -9,7 +9,7 @@ class IdentificationModel(nn.Module):
     def __init__(self):
         super(IdentificationModel, self).__init__()
         # Load a pre-trained ResNet model and modify the final layer
-        self.model = models.resnet50(pretrained=True)
+        self.model = models.resnet50(weights=models.ResNet50_Weights.IMAGENET1K_V1)
         self.model.fc = nn.Linear(self.model.fc.in_features, 10)  # Assuming 10 classes for identification
 
     def forward(self, x):
@@ -34,10 +34,16 @@ def identify_object(image_path, model):
 if __name__ == "__main__":
     # Initialize the model
     identification_model = IdentificationModel()
-    
-    segmented_image_path = "E:\saksham-jain-wasserstoff-AiInternTask\data\segmented_objects"
 
-    # Identify the object in the image
-    identified_class = identify_object(segmented_image_path, identification_model)
-    
-    print(f"Identified Class: {identified_class}")
+    # Directory containing the segmented object images
+    segmented_image_directory = "E:\saksham-jain-wasserstoff-AiInternTask\data\segmented_objects"
+
+    # Loop through all images in the segmented objects directory
+    for filename in os.listdir(segmented_image_directory):
+        file_path = os.path.join(segmented_image_directory, filename)
+        if os.path.isfile(file_path):
+            try:
+                identified_class = identify_object(file_path, identification_model)
+                print(f"File: {filename}, Identified Class: {identified_class}")
+            except Exception as e:
+                print(f"Error processing {filename}: {e}")
