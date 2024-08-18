@@ -1,0 +1,34 @@
+{
+    "Segmented Object 1": {
+        "Identified Class": "Laptop",
+        "Extracted Text": null
+    },
+    "Segmented Object 2": {
+        "Identified Class": "Person",
+        "Extracted Text": null
+    },
+    "Segmented Object 3": {
+        "Identified Class": "Laptop",
+        "Extracted Text": null
+    },
+    "Segmented Object 4": {
+        "Identified Class": "Table",
+        "Extracted Text": null
+    },
+    "Segmented Object 5": {
+        "Identified Class": "Table",
+        "Extracted Text": null
+    },
+    "Segmented Object 6": {
+        "Identified Class": "Table",
+        "Extracted Text": null
+    },
+    "Segmented Object 7": {
+        "Identified Class": "Person",
+        "Extracted Text": null
+    },
+    "Segmented Object 8": {
+        "Identified Class": "Laptop",
+        "Extracted Text": null
+    }
+}
