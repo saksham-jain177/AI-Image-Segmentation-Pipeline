@@ -1,6 +1,8 @@
 import json
 from identification_model import IdentificationModel, identify_object
 from text_extraction_model import extract_text
+from transformers import pipeline
+
 
 def generate_summary(identified_objects, extracted_texts):
     summary = {}
@@ -17,6 +19,26 @@ def save_summary_to_file(summary, output_path="data/output/summary.json"):
     with open(output_path, 'w') as f:
         json.dump(summary, f, indent=4)
     print(f"Summary saved to {output_path}")
+
+
+def summarize_attributes(objects):
+    summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+    summaries = {}
+
+    for obj_id, obj_data in objects.items():
+        description = obj_data.get("description", "")
+        extracted_text = obj_data.get("extracted_text", "")
+
+        input_text = description + " " + extracted_text
+        summary = summarizer(input_text, max_length=50, min_length=25, do_sample=False)[0]['summary_text']
+        
+        summaries[obj_id] = {
+            "summary": summary,
+            "description": description,
+            "extracted_text": extracted_text
+        }
+
+    return summaries
 
 if __name__ == "__main__":
     # Initialize the identification model directly without loading weights

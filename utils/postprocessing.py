@@ -1,6 +1,33 @@
 import json
 import os
 
+def process_summaries(summary_path):
+    """
+    Load the summaries from the summary.json file and prepare them for further use.
+    """
+    with open(summary_path, 'r') as file:
+        summaries = json.load(file)
+    
+    # Example: Convert summaries into a more readable format or filter out unnecessary data
+    processed_summaries = {}
+    
+    for obj_id, data in summaries.items():
+        processed_summaries[obj_id] = {
+            "description": data.get("description", "No description available"),
+            "summary": data.get("summary", "No summary available")
+        }
+    
+    return processed_summaries
+
+def process_segmented_objects(segment_path):
+    """
+    Load the segmented objects for further processing.
+    """
+    # Placeholder function - implement specific logic for your use case
+    segmented_objects = []  # Add processing logic here
+    return segmented_objects
+
+
 def clean_data(summary):
     """
     Clean and structure the summarized data.

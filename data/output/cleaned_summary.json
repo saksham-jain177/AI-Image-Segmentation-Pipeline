@@ -1,34 +1,6 @@
 {
     "Segmented Object 1": {
-        "Identified Class": 6,
-        "Extracted Text": null
-    },
-    "Segmented Object 2": {
-        "Identified Class": 0,
-        "Extracted Text": null
-    },
-    "Segmented Object 3": {
-        "Identified Class": 6,
-        "Extracted Text": null
-    },
-    "Segmented Object 4": {
-        "Identified Class": 9,
-        "Extracted Text": null
-    },
-    "Segmented Object 5": {
-        "Identified Class": 9,
-        "Extracted Text": null
-    },
-    "Segmented Object 6": {
-        "Identified Class": 9,
-        "Extracted Text": null
-    },
-    "Segmented Object 7": {
-        "Identified Class": 0,
-        "Extracted Text": null
-    },
-    "Segmented Object 8": {
-        "Identified Class": 6,
-        "Extracted Text": null
+        "Identified Class": 1,
+        "Extracted Text": "Sample Text"
     }
 }

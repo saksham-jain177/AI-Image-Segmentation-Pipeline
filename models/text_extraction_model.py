@@ -7,20 +7,20 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 
 def extract_text(image_path):
     try:
-        # Try to open the image
+        # Open the image and attempt to extract text
         image = Image.open(image_path)
-        text = pytesseract.image_to_string(image)
+        extracted_text = pytesseract.image_to_string(image)
         
-        # Check if any text was found
-        if text.strip():  # Check if the text is not empty after stripping whitespace
-            return text
-        else:
-            print(f"No text found in {os.path.basename(image_path)}")
-            return None
+        # Check if extracted text is empty or just whitespace
+        if not extracted_text.strip():
+            return "No text detected"
+        
+        return extracted_text
+
     except Exception as e:
-        # Handle exceptions such as issues with Tesseract or file reading
-        print(f"Error extracting text from {image_path}: {e}")
-        return None
+        print(f"Error processing image {image_path}: {e}")
+        return "Error occurred"
+
 
 # Directory containing the segmented objects
 segmented_objects_dir = 'E:\saksham-jain-wasserstoff-AiInternTask\data\segmented_objects'
