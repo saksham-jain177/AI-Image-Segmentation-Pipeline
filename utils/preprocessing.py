@@ -2,6 +2,35 @@ import os
 from PIL import Image
 import torchvision.transforms as transforms
 import torch
+import cv2
+import numpy as np
+
+
+def preprocess_segmented_object(image_path, target_size=(224, 224)):
+    """
+    Preprocess the segmented object image for identification.
+    
+    Args:
+        image_path (str): Path to the segmented object image.
+        target_size (tuple): The target size to resize the image (width, height).
+
+    Returns:
+        np.ndarray: Preprocessed image ready for model input.
+    """
+    # Load image
+    image = cv2.imread(image_path)
+    
+    # Resize image to the target size
+    image = cv2.resize(image, target_size)
+    
+    # Normalize image values to the range [0, 1]
+    image = image.astype(np.float32) / 255.0
+    
+    # Convert image to the appropriate format (HWC to CHW if using PyTorch)
+    # Adjust accordingly for the model being used (PyTorch vs TensorFlow)
+    image = np.transpose(image, (2, 0, 1))
+    
+    return image
 
 def preprocess_image(image_path):
     """

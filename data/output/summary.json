@@ -1,6 +1,34 @@
 {
     "Segmented Object 1": {
+        "Identified Class": 7,
+        "Extracted Text": "No text detected"
+    },
+    "Segmented Object 2": {
         "Identified Class": 1,
-        "Extracted Text": "Sample Text"
+        "Extracted Text": "No text detected"
+    },
+    "Segmented Object 3": {
+        "Identified Class": 1,
+        "Extracted Text": "No text detected"
+    },
+    "Segmented Object 4": {
+        "Identified Class": 2,
+        "Extracted Text": "No text detected"
+    },
+    "Segmented Object 5": {
+        "Identified Class": 1,
+        "Extracted Text": "No text detected"
+    },
+    "Segmented Object 6": {
+        "Identified Class": 7,
+        "Extracted Text": "No text detected"
+    },
+    "Segmented Object 7": {
+        "Identified Class": 7,
+        "Extracted Text": "No text detected"
+    },
+    "Segmented Object 8": {
+        "Identified Class": 0,
+        "Extracted Text": "No text detected"
     }
 }

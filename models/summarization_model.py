@@ -2,6 +2,7 @@ import json
 from identification_model import IdentificationModel, identify_object
 from text_extraction_model import extract_text
 from transformers import pipeline
+import torch
 
 
 def generate_summary(identified_objects, extracted_texts):
@@ -44,6 +45,9 @@ if __name__ == "__main__":
     # Initialize the identification model directly without loading weights
     identification_model = IdentificationModel()
 
+    # Set the device (CPU or GPU)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
     # Actual data from identification and text extraction models
     segmented_objects_dir = "data/segmented_objects/"
     segmented_files = [
@@ -63,8 +67,8 @@ if __name__ == "__main__":
     for segmented_file in segmented_files:
         segmented_path = segmented_objects_dir + segmented_file
         
-        # Fetch identified class by passing the model
-        identified_class = identify_object(segmented_path, identification_model)  # Pass the model as an argument
+        # Fetch identified class by passing the model and device
+        identified_class = identify_object(segmented_path, identification_model, device)  # Pass the model and device
         identified_objects.append(identified_class)
         
         # Fetch extracted text
