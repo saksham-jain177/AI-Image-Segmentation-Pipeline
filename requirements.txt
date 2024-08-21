@@ -9,3 +9,4 @@ torchvision
 tensorflow
 pytesseract
 opencv-python
+opencv-python-headless
