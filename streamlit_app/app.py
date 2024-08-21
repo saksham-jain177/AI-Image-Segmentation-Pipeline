@@ -4,16 +4,15 @@ import os
 import torch
 import json
 import sys
-import cv2
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# Ensure the correct paths are included
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'models')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'utils')))
+
 # Import models and utilities
 from models.segmentation_model import segment_image
 from models.identification_model import IdentificationModel, identify_object
 from models.text_extraction_model import extract_text
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'utils')))
 from utils.data_mapping import generate_summary
 
 # Directory paths
