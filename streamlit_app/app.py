@@ -10,10 +10,10 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'm
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'utils')))
 
 # Import models and utilities
-from segmentation_model import segment_image
-from identification_model import IdentificationModel, identify_object
-from text_extraction_model import extract_text
-from data_mapping import generate_summary
+from models.segmentation_model import segment_image
+from models.identification_model import IdentificationModel, identify_object
+from models.text_extraction_model import extract_text
+from utils.data_mapping import generate_summary
 
 # Directory paths
 segmented_objects_dir = "data/segmented_objects"

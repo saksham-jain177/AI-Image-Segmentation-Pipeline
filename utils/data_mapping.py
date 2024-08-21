@@ -1,9 +1,9 @@
-import json
-import os
-from ..models.identification_model import IdentificationModel, identify_object
+from models.identification_model import IdentificationModel, identify_object
 from models.text_extraction_model import extract_text
 from transformers import pipeline
 import torch
+import json
+import os
 
 # Path configurations
 SEGMENTED_OBJECTS_DIR = "E:/saksham-jain-wasserstoff-AiInternTask/data/segmented_objects"
