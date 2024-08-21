@@ -1,34 +1,310 @@
 {
-    "Segmented Object 1": {
-        "Identified Class": null,
-        "Extracted Text": "Error extracting text"
+    "object_1": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_1.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
     },
-    "Segmented Object 2": {
-        "Identified Class": null,
-        "Extracted Text": "Error extracting text"
+    "object_2": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_2.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
     },
-    "Segmented Object 3": {
-        "Identified Class": null,
-        "Extracted Text": "Error extracting text"
+    "object_3": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_3.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
     },
-    "Segmented Object 4": {
-        "Identified Class": null,
-        "Extracted Text": "Error extracting text"
+    "object_4": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_4.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
     },
-    "Segmented Object 5": {
-        "Identified Class": null,
-        "Extracted Text": "Error extracting text"
+    "object_5": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_5.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
     },
-    "Segmented Object 6": {
-        "Identified Class": null,
-        "Extracted Text": "Error extracting text"
+    "object_6": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_6.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
     },
-    "Segmented Object 7": {
-        "Identified Class": null,
-        "Extracted Text": "Error extracting text"
+    "object_7": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_7.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
     },
-    "Segmented Object 8": {
-        "Identified Class": null,
-        "Extracted Text": "Error extracting text"
+    "object_8": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_8.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_9": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_9.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_10": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_10.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_11": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_11.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_12": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_12.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_13": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_13.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_14": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_14.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_15": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_15.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_16": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_16.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_17": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_17.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_18": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_18.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_19": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_19.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_20": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_20.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_21": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_21.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_22": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_22.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_23": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_23.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_24": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_24.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_25": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_25.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_26": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_26.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_27": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_27.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_28": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_28.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_29": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_29.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_30": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_30.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_31": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_31.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_32": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_32.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_33": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_33.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_34": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_34.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_35": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_35.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_36": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_36.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_37": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_37.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_38": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_38.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_39": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_39.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_40": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_40.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_41": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_41.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_42": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_42.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_43": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_43.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+    },
+    "object_44": {
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_44.png",
+        "master_id": "sample1.jpg",
+        "identified_class": null,
+        "extracted_text": "Error extracting text",
+        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
     }
 }
