@@ -15,6 +15,7 @@ This project is an AI pipeline for image segmentation, object identification, te
 
 ## Project Structure
 AiInternTask/
+`
 │
 ├── data/
 │   ├── input_images/            # Images to be processed
@@ -45,6 +46,7 @@ AiInternTask/
 │
 ├── README.md
 └── requirements.txt
+`
 
 ## Usage
 1. Run the pipeline:
