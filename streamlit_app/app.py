@@ -6,8 +6,7 @@ import json
 import sys
 
 # Ensure the correct paths are included
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'models')))
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'utils')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Import models and utilities
 from models.segmentation_model import segment_image
