@@ -10,14 +10,15 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'm
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'utils')))
 
 # Import models and utilities
-from models.segmentation_model import segment_image
-from models.identification_model import IdentificationModel, identify_object
-from models.text_extraction_model import extract_text
-from utils.data_mapping import generate_summary
+from segmentation_model import segment_image
+from identification_model import IdentificationModel, identify_object
+from text_extraction_model import extract_text
+from data_mapping import generate_summary
 
 # Directory paths
-segmented_objects_dir = "E:\saksham-jain-wasserstoff-AiInternTask\data\segmented_objects"
-output_dir = "E:\saksham-jain-wasserstoff-AiInternTask\data\output"
+segmented_objects_dir = "data/segmented_objects"
+output_dir = "data/output"
+input_images_dir = "data/input_images"
 
 # Initialize models
 identification_model = IdentificationModel()
@@ -32,7 +33,7 @@ uploaded_image = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"]
 
 if uploaded_image:
     # Save the uploaded image temporarily to the input_images directory
-    image_path = os.path.join("E:\saksham-jain-wasserstoff-AiInternTask\data\input_images", uploaded_image.name)
+    image_path = os.path.join(input_images_dir, uploaded_image.name)
     with open(image_path, "wb") as f:
         f.write(uploaded_image.getbuffer())
 
@@ -47,7 +48,7 @@ if uploaded_image:
     segment_image(image_path, segmented_objects_dir)
 
     # Load segmented objects from the directory and display them
-    segmented_objects = [Image.open(os.path.join(segmented_objects_dir, f)) for f in os.listdir(segmented_objects_dir)]
+    segmented_objects = [Image.open(os.path.join(segmented_objects_dir, f)) for f in os.listdir(segmented_objects_dir) if f.endswith('.png')]
 
     for i, obj in enumerate(segmented_objects):
         st.image(obj, caption=f"Segmented Object {i+1}", use_column_width=True)
@@ -61,7 +62,7 @@ if uploaded_image:
 
     for i, obj in enumerate(segmented_objects):
         obj_id = f"object_{i+1}"
-        obj_path = os.path.join(segmented_objects_dir, f"segmented_object_{i+1}.png")
+        obj_path = os.path.join(segmented_objects_dir, f"{os.path.splitext(uploaded_image.name)[0]}_segmented_object_{i+1}.png")
 
         # Assign a unique ID and save metadata
         object_metadata[obj_id] = {"image_path": obj_path, "master_id": master_image_id}
@@ -73,7 +74,7 @@ if uploaded_image:
 
     for i, segmented_object in enumerate(segmented_objects):
         obj_id = f"object_{i+1}"
-        obj_path = os.path.join(segmented_objects_dir, f"segmented_object_{i+1}.png")
+        obj_path = os.path.join(segmented_objects_dir, f"{os.path.splitext(uploaded_image.name)[0]}_segmented_object_{i+1}.png")
 
         # Object identification
         identified_class = identify_object(obj_path, identification_model, device)
@@ -88,7 +89,7 @@ if uploaded_image:
 
     for i, segmented_object in enumerate(segmented_objects):
         obj_id = f"object_{i+1}"
-        obj_path = os.path.join(segmented_objects_dir, f"segmented_object_{i+1}.png")
+        obj_path = os.path.join(segmented_objects_dir, f"{os.path.splitext(uploaded_image.name)[0]}_segmented_object_{i+1}.png")
 
         # Text extraction
         extracted_text = extract_text(obj_path)
