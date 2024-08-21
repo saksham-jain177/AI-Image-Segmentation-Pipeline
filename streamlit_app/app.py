@@ -1,60 +1,62 @@
-import sys
-import os
-
-# Add the project's root directory to the Python path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 import streamlit as st
+import os
 import json
-from PIL import Image
-from utils.visualization import visualize_segmented_object
+from PIL import Image, ImageDraw
 
+def load_data_mapping(json_file):
+    with open(json_file, 'r') as f:
+        return json.load(f)
 
-SUMMARY_PATH = "E:\saksham-jain-wasserstoff-AiInternTask\data\output\summary.json"
-SEGMENTED_OBJECTS_DIR = "E:\saksham-jain-wasserstoff-AiInternTask\data\segmented_objects"
+def display_image_with_annotations(image_path, data_mapping):
+    image = Image.open(image_path)
+    draw = ImageDraw.Draw(image)
 
-def load_summaries():
-    """Load the processed summaries from a JSON file."""
-    if os.path.exists(SUMMARY_PATH):
-        with open(SUMMARY_PATH, 'r') as f:
-            return json.load(f)
-    else:
-        st.error(f"Summary file not found at {SUMMARY_PATH}")
-        return {}
+    # Annotate each object in the image (coordinates can be dummy for now)
+    for i, (object_id, object_data) in enumerate(data_mapping.items()):
+        if object_id != "master_image_id":
+            description = object_data["description"]
+            draw.text((10, 10 + i * 20), f"{object_id}: {description}", fill="red")
 
-def display_segmented_objects():
-    """Display segmented objects with their summaries."""
-    summaries = load_summaries()
-    if not summaries:
-        st.warning("No summaries available to display.")
-        return
+    st.image(image, caption=f"Image with Annotations: {os.path.basename(image_path)}")
 
-    # Display the segmented objects with their summaries
-    for obj_id, obj_data in summaries.items():
-        st.subheader(f"Object {obj_id}")
-        class_name = obj_data.get("Identified Class", "Unknown")
-        extracted_text = obj_data.get("Extracted Text", "No Text")
-        
-        # Display class name and extracted text
-        st.write(f"**Class**: {class_name}")
-        st.write(f"**Extracted Text**: {extracted_text}")
+def display_data_table(data_mapping):
+    table_data = []
+    for object_id, object_data in data_mapping.items():
+        if object_id != "master_image_id":
+            table_data.append([object_id, object_data["description"], object_data["extracted_text"], object_data["summary"]])
 
-        # Display the corresponding segmented object image
-        image_name = obj_id.lower().replace(" ", "_") + ".png"
-        image_path = os.path.join(SEGMENTED_OBJECTS_DIR, image_name)
-
-        if os.path.exists(image_path):
-            image = Image.open(image_path)
-            st.image(image, caption=f"Segmented Object {obj_id}", use_column_width=True)
-        else:
-            st.warning(f"Image not found for Object {obj_id}.")
+    st.table(table_data)
 
 def main():
-    """Main function to run the Streamlit app."""
-    st.title("Segmented Object Visualization")
+    st.title("Object Data and Annotations")
 
-    # Display the segmented objects with their summaries
-    display_segmented_objects()
+    # Folder paths
+    input_images_dir = "E:/saksham-jain-wasserstoff-AiInternTask/data/input_images"
+    output_dir = "E:/saksham-jain-wasserstoff-AiInternTask/data/output"
+    
+    # Iterate over all images in the input_images directory
+    for image_file in os.listdir(input_images_dir):
+        image_path = os.path.join(input_images_dir, image_file)
+        
+        if os.path.isfile(image_path):
+            # Set the master image ID as the image filename without extension
+            master_image_id = os.path.splitext(image_file)[0]
+            
+            # JSON file corresponding to the current image
+            json_file = os.path.join(output_dir, f"{master_image_id}_summary.json")
+            
+            if os.path.exists(json_file):
+                # Load the mapped data for this image
+                data_mapping = load_data_mapping(json_file)
+
+                # Display the original image with annotations
+                display_image_with_annotations(image_path, data_mapping)
+
+                # Display the data table
+                st.subheader(f"Data Table for {image_file}")
+                display_data_table(data_mapping)
+            else:
+                st.write(f"No data mapping found for {image_file}")
 
 if __name__ == "__main__":
     main()

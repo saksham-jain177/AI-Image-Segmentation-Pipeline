@@ -1,68 +1,41 @@
 import json
+import os
 
-# Example mapping: Class IDs to Human-readable Class Names
-CLASS_MAPPING = {
-    0: "Person",
-    1: "Car",
-    2: "Tree",
-    3: "Dog",
-    4: "Building",
-    5: "Bicycle",
-    6: "Laptop",
-    7: "Book",
-    8: "Chair",
-    9: "Table"
-}
+def map_data(segmented_objects, descriptions, extracted_texts, summaries, master_image_id, output_file):
+    # Add a debug statement to ensure the function is called
+    print("map_data() called")
+    print(f"Segmented Objects: {segmented_objects}")
+    print(f"Descriptions: {descriptions}")
+    print(f"Extracted Texts: {extracted_texts}")
+    print(f"Summaries: {summaries}")
+    print(f"Master Image ID: {master_image_id}")
+    print(f"Output File: {output_file}")
+    
+    # Ensure all lists have the same length
+    num_objects = len(segmented_objects)
+    if not (num_objects == len(descriptions) == len(extracted_texts) == len(summaries)):
+        raise ValueError("Mismatch in the number of segmented objects, descriptions, texts, and summaries")
 
-def map_identified_classes(summary):
-    """
-    Map identified class IDs to human-readable class names.
-    
-    Args:
-        summary (dict): The cleaned summary data with class IDs.
-    
-    Returns:
-        dict: The summary data with mapped class names.
-    """
-    mapped_summary = {}
-    
-    for key, value in summary.items():
-        class_id = value.get("Identified Class")
-        if class_id in CLASS_MAPPING:
-            value["Identified Class"] = CLASS_MAPPING[class_id]
-        else:
-            value["Identified Class"] = "Unknown"
-        
-        mapped_summary[key] = value
-    
-    return mapped_summary
+    data_mapping = {}
 
-def save_mapped_data(mapped_summary, output_path="data/output/mapped_summary.json"):
-    """
-    Save the mapped summary data to a JSON file.
-    
-    Args:
-        mapped_summary (dict): The summary data with mapped class names.
-        output_path (str): Path to save the mapped summary.
-    """
-    with open(output_path, 'w') as f:
-        json.dump(mapped_summary, f, indent=4)
-    print(f"Mapped summary saved to {output_path}")
+    # Map each object with its data
+    for i in range(num_objects):
+        object_data = {
+            "description": descriptions[i],
+            "extracted_text": extracted_texts[i],
+            "summary": summaries[i]
+        }
+        data_mapping[f"object_{i+1}"] = object_data
+        print(f"Mapped object_{i+1}: {object_data}")  # Debug each object
 
-if __name__ == "__main__":
-    # Example usage: Load cleaned summary, map class IDs to class names, and save the mapped version
-    cleaned_summary_path = "data/output/cleaned_summary.json"
-    
-    # Check if cleaned summary file exists
+    # Include master image ID
+    data_mapping["master_image_id"] = master_image_id
+
+    # Save the mapping to a JSON file
     try:
-        with open(cleaned_summary_path, 'r') as f:
-            cleaned_summary = json.load(f)
-        
-        # Map the class IDs to class names
-        mapped_summary = map_identified_classes(cleaned_summary)
-        
-        # Save the mapped summary data
-        save_mapped_data(mapped_summary)
-    
-    except FileNotFoundError:
-        print(f"Cleaned summary file not found at {cleaned_summary_path}")
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        with open(output_file, 'w') as f:
+            json.dump(data_mapping, f, indent=4)
+        print(f"Data mapping saved to {output_file}")  # Success message
+    except Exception as e:
+        print(f"Error writing to {output_file}: {e}")

@@ -63,12 +63,20 @@ if __name__ == "__main__":
     # Directory containing the segmented object images
     segmented_image_directory = "E:\saksham-jain-wasserstoff-AiInternTask\data\segmented_objects"
 
+    # List to store descriptions
+    descriptions = []
+
     # Loop through all images in the segmented objects directory
     for filename in os.listdir(segmented_image_directory):
         file_path = os.path.join(segmented_image_directory, filename)
         if os.path.isfile(file_path):
             identified_class = identify_object(file_path, identification_model, device)
             if identified_class is not None:
+                # Store the identified class as a description
+                descriptions.append(f"Object {filename} identified as class {identified_class}")
                 logging.info(f"File: {filename}, Identified Class: {identified_class}")
             else:
                 logging.error(f"Failed to identify class for {filename}")
+
+    # Print or save the descriptions list for further processing
+    logging.info(f"Collected Descriptions: {descriptions}")
