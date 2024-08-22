@@ -62,7 +62,7 @@ if __name__ == "__main__":
     load_model_weights(identification_model, model_weights_path)
 
     # Directory containing the segmented object images
-    segmented_image_directory = r"E:\saksham-jain-wasserstoff-AiInternTask\data\segmented_objects"
+    segmented_image_directory = "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects"
 
     # List to store descriptions
     descriptions = []
