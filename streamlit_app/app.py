@@ -15,9 +15,9 @@ from models.text_extraction_model import extract_text
 from utils.data_mapping import generate_summary
 
 # Directory paths
-segmented_objects_dir = "data/segmented_objects"
-output_dir = "data/output"
-input_images_dir = "data/input_images"
+segmented_objects_dir = "E:\saksham-jain-wasserstoff-AiInternTask\data\segmented_objects"
+output_dir = "E:\saksham-jain-wasserstoff-AiInternTask\data\output"
+input_images_dir = "E:\saksham-jain-wasserstoff-AiInternTask\data\input_images"
 
 # Initialize models
 identification_model = IdentificationModel()
