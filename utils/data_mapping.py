@@ -17,7 +17,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 identification_model = identification_model.to(device)
 
 # Initialize summarizer
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn", framework="pt")
 
 def generate_summary(identified_class, extracted_text):
     """ Generate a summary for each identified object and its extracted text. """
