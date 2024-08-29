@@ -7,7 +7,7 @@ This project is an AI pipeline for image segmentation, object identification, te
 
 ## Installation
 1. Clone the repository: 
-    `git clone https://github.com/saksham-jain177/AI-Image-Segmentation-Pipeline.git`
+    `git clone https://github.com/saksham-jain/wasserstoff/AiInternTask.git`
 
 2. Install the required dependencies: 
     `pip install -r requirements.txt`
