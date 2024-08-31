@@ -1,310 +1,310 @@
 {
     "object_1": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_1.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_1.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "4\na\nco\nJ\noe\nBS\ni",
+        "summary": "Object: 1, Text: 4. Object: 1. Text: 3. Object, Text, 3. Text, 4, Object, 3, Text. Object,. Text, 5, Object. Object; Object, 5. Text"
     },
     "object_2": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_2.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_2.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "oo",
+        "summary": "The first episode of This is Life with Lisa Ling airs tonight at 9 p.m. ET. Click through the gallery to see the first episode."
     },
     "object_3": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_3.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_3.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "qi",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots of China for next week. Visit CNN.com/Travel next Wednesday for a new gallery of snapshots."
     },
     "object_4": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_4.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_4.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_5": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_5.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_5.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_6": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_6.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_6.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 7,
+        "extracted_text": "No text detected",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Visit CNN.com/Travel each week for a new gallery of snapshots from around the world."
     },
     "object_7": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_7.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_7.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 7,
+        "extracted_text": "No text detected",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Visit CNN.com/Travel each week for a new gallery of snapshots from around the world."
     },
     "object_8": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_8.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_8.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 0,
+        "extracted_text": "No text detected",
+        "summary": "The following is a transcript of a video that was uploaded to YouTube. The video has been removed. Use the comments to help people with reading comprehension and vocabulary."
     },
     "object_9": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_9.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_9.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 0,
+        "extracted_text": "No text detected",
+        "summary": "The following is a transcript of a video that was uploaded to YouTube. The video has been removed. Use the comments to help people with reading comprehension and vocabulary."
     },
     "object_10": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_10.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_10.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "a",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Visit CNN.com/Travel each week for a new gallery of snapshots from around the world. Please submit your best shots of the U."
     },
     "object_11": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_11.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_11.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 0,
+        "extracted_text": "No text detected",
+        "summary": "The following is a transcript of a video that was uploaded to YouTube. The video has been removed. Use the comments to help people with reading comprehension and vocabulary."
     },
     "object_12": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_12.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_12.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_13": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_13.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_13.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "e\nq",
+        "summary": "The first part of this article was published on November 1, 2013. It is the first of a two-part series. The second part will be published on Wednesday, November 2, 2014."
     },
     "object_14": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_14.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_14.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "bee",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots of the U.S. for next week. Visit CNN.com/Travel next Wednesday for a new gallery of snapshots."
     },
     "object_15": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_15.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_15.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_16": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_16.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_16.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_17": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_17.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_17.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_18": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_18.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_18.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_19": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_19.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_19.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_20": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_20.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_20.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 7,
+        "extracted_text": "Ng",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Visit CNN.com/Travel each week for a new gallery of snapshots from around the world."
     },
     "object_21": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_21.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_21.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "y\nion",
+        "summary": "The first page of this article was published on November 1, 2013. It is the first of a two-part series. The second page will be published tomorrow. Read the first page here."
     },
     "object_22": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_22.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_22.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_23": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_23.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_23.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_24": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_24.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_24.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "ieh",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Visit CNN.com/Travel each week for a new gallery of snapshots from around the world."
     },
     "object_25": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_25.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_25.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "nd\nIe a\nBiageOSToS00IOT8sercestoserpape",
+        "summary": "Ie a picture of a woman's face. The image is of her face. It is called a \"face\""
     },
     "object_26": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_26.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_26.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "Nes",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Visit CNN.com/Travel each week for a new gallery of snapshots from around the world."
     },
     "object_27": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_27.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_27.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "p\nSS",
+        "summary": "The original version of this article was published on November 1, 2013. It was updated on November 2, 2013, to include the latest version of the article. We apologise for any errors."
     },
     "object_28": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_28.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_28.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_29": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_29.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_29.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 0,
+        "extracted_text": "XN\nao OSOsoDDT ITOSS380pcoe",
+        "summary": "The original version of this article contained an image of a woman in a bikini. We are happy to clarify that the woman was in fact a man. We apologise for the error."
     },
     "object_30": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_30.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_30.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "oe",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Visit CNN.com/Travel each week for a new gallery of snapshots from around the world. Please submit your best shots of the U."
     },
     "object_31": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_31.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_31.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "a\n40 OSOsoDDT ITOSS380pcoe",
+        "summary": "Object: 1, Text: a40 OSOsoDDT ITOSS380pcoe. Object: 1. Text: an image of a man's face. A photo of his face."
     },
     "object_32": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_32.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_32.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_33": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_33.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_33.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 0,
+        "extracted_text": "W\ns Cr",
+        "summary": "The world has been turned upside down. The world is being turned into the shape of a circle. The shape of the circle is called a circle and is made up of circles."
     },
     "object_34": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_34.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_34.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_35": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_35.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_35.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "am",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots of the U.S. for next week. Visit CNN.com/Travel next Wednesday for a new gallery of snapshots."
     },
     "object_36": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_36.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_36.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 7,
+        "extracted_text": "No text detected",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Visit CNN.com/Travel each week for a new gallery of snapshots from around the world."
     },
     "object_37": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_37.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_37.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "o",
+        "summary": "Object: 1, Text: o. Object: 2, Object: 3, text: o, object: 4, text; Object: 5, object, text. Object, text, Object, Object; Object, Text, Object"
     },
     "object_38": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_38.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_38.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_39": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_39.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_39.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "Fa",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Please submit your best shots of New York for next week. Visit CNN.com/Travel next Wednesday for a new gallery of snapshots."
     },
     "object_40": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_40.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_40.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_41": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_41.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_41.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "Oe",
+        "summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Visit CNN.com/Travel each week for a new gallery of snapshots from around the world."
     },
     "object_42": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_42.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_42.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "No text detected",
+        "summary": "The following is a text-only video. Use this video to help students with reading comprehension and vocabulary. Use the weekly Newsquiz to test your knowledge of stories you saw on CNN."
     },
     "object_43": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_43.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_43.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "ry\nQo",
+        "summary": "Object: 1, Text: ryQo. Object: 1. Text: \"I am a man\" Object: 2, \"What am I?\" Object: 3, \"Who am I\"? Object: 4,"
     },
     "object_44": {
-        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\segmented_object_44.png",
+        "image_path": "E:\\saksham-jain-wasserstoff-AiInternTask\\data\\segmented_objects\\sample1_segmented_object_44.png",
         "master_id": "sample1.jpg",
-        "identified_class": null,
-        "extracted_text": "Error extracting text",
-        "summary": "Object: None, Text: Error extracting text. Object: None. Text: Object: Text. Text. Object, Text, Object, Object. Object. Text, Text; Object, text, object, text. Text"
+        "identified_class": 1,
+        "extracted_text": "7 f\nwa rots oR OeS50\nns oer neboper",
+        "summary": "Object: 1, Text: 7 f progressively rots oR OeS50n oer neboper. Object: 1. Text: 1 f f purposefully rots, 7 f purposefully destroys."
     }
 }
