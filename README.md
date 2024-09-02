@@ -1,7 +1,3 @@
-# saksham-jain/wasserstoff/AiInternTask
-
-# AI Internship Task - Wasserstoff
-
 ## Project Overview
 This project is an AI pipeline for image segmentation, object identification, text extraction, and summarization.
 
